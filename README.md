@@ -42,4 +42,8 @@ View Results: The system will display the shortlisted candidates based on the se
 Contributing:   
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change   
 I have attached a screenshot of the final project here:   
-![Screenshot (97)](https://github.com/user-attachments/assets/ce5c6043-732f-4bed-94a1-103ee314a88d)
+![Screenshot (97)](https://github.com/user-attachments/assets/ce5c6043-732f-4bed-94a1-103ee314a88d)   
+
+And another screenshot which showcases how your VS Code setup should look like when you have completed the setup:  
+![Screenshot (99)](https://github.com/user-attachments/assets/42a7d55b-984b-43cc-a120-255f31976652)
+
