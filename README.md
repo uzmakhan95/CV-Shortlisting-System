@@ -1,3 +1,4 @@
+
 # CV-Shortlisting-System
 Developed a CV Shortlisting System using Python and the system was built using Flask to provide a user-friendly interface, while PyPDF2 was utilized for extracting text from PDF resumes, and NLTK was employed for text processing. The system efficiently parses and analyzes resumes to shortlist candidates based on predefined criteria.
 
@@ -40,3 +41,5 @@ View Results: The system will display the shortlisted candidates based on the se
 
 Contributing:   
 Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change   
+I have attached a screenshot of the final project here:   
+![Screenshot (97)](https://github.com/user-attachments/assets/ce5c6043-732f-4bed-94a1-103ee314a88d)
