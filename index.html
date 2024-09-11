@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Shortlisting System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>CV Shortlisting System</h1>
+        <form id="uploadForm" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Upload Resume (PDF only):</label>
+                <input type="file" name="file" id="file" accept=".pdf" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="keywords">Enter Keywords (comma-separated):</label>
+                <input type="text" name="keywords" id="keywords" placeholder="e.g., Python, Data Science" required>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
